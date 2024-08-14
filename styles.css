@@ -1,0 +1,151 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+header, section, footer {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+header {
+    background: #dcd0c0;
+    color: #333;
+    padding: 60px 20px;
+    border-radius: 8px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #8C7B75;
+    color: #fff;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.cta-button:hover {
+    background: #A67B5B;
+}
+
+
+#introduction {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+#features {
+    background: #DCD0C0;
+    color: #333;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+#features ul {
+    list-style: none;
+}
+
+#features li {
+    margin-bottom: 10px;
+}
+
+
+#testimonials {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+blockquote {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #555;
+    border-left: 4px solid #8C7B75;
+    padding-left: 10px;
+}
+
+
+#cta {
+    background: #DCD0C0;
+    color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+#cta .cta-button {
+    background: #DCD0C0;
+    color: #333;
+}
+
+#cta .cta-button:hover {
+    background: #c8b7a6;
+}
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #333;
+    color: #fff;
+    border-radius: 8px;
+}
+
+footer p {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 768px) {
+    header, section, footer {
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    header p {
+        font-size: 1rem;
+    }
+}
